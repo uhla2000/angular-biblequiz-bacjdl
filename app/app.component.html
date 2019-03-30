@@ -1,0 +1,38 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+
+
+
+<nav class="navbar barra">
+  <a class="navbar-brand" href="#">
+    <img src="https://www.kingjamesbibleonline.org/images/king-james-bible-kjv.png" width="70" height="70" class="d-inline-block align-top" alt="">
+
+    <span class='titulo'>QUIZ BÍBLICO</span>
+  </a>
+</nav>
+
+<div id='alerta' class="alert alert-primary" role="alert"></div>
+
+<div class='container perguntas'>
+  <div class="row">
+    <div class="col">
+      <p> {{pergunta}} </p>
+      <br>
+      <div>
+        <input id='a' type="radio" name='alternativas' value='a'><label for='a' name='nome_span'>{{opcao1}}</label> <br>
+        <input id='b' type="radio" name='alternativas' value='b'><label for='b' name='nome_span'>{{opcao2}}</label> <br>
+        <input id='c' type="radio" name='alternativas' value='c'><label for='c' name='nome_span'>{{opcao3}}</label> <br>
+      </div>
+      <div class='divbotao' id='div-botao'>
+        <button id='botao' class='btn btn-primary' (click)='conferir($event)'>Conferir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+

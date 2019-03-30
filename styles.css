@@ -1,0 +1,8 @@
+/* Add application styles & imports to this file! */
+
+body  {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7aK3VLlSjBVYkrFEiw0HSBG66p4Xr4sndDsQV8UCTWFuft5TUZw');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}

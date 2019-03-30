@@ -1,0 +1,30 @@
+p {
+  font-family: Lato;
+}
+
+.perguntas {
+  margin-right: 100px;
+  margin-left: auto;
+  margin-top: 30px;
+  
+}
+
+.titulo {
+  font-weight: 900;
+  font-size: 30px;
+  color:whitesmoke;  
+}
+
+.barra {
+  background-color: cornflowerblue;
+}
+
+input {
+  padding: 5px;
+}
+
+.divbotao {
+  margin-top: 0;
+  margin-left: 200px;
+  margin-right: 100px;
+}
